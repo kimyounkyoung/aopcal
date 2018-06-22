@@ -5,7 +5,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
 		http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop.xsd">
 <!-- 공통 기능을 제공할 클래스를 빈으로 등록 -->
-	<bean id="exeTimeAspect" class="aspect.ExeTimeAspect" />
+	<bean id="exeTimeAspect" class="aspect.ExeTimeAspect" class = "kr.hs.emirim.passposs.aopcal.aspect"/>
 
 	<!-- Aspect 설정: Advice를 어떤 Pointcut에 적용할 지 설정 -->
 	<aop:config>
